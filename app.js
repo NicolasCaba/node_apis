@@ -10,8 +10,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 require('./routes/routes');
 
-// eslint-disable-next-line no-undef
 app.listen(config.port, () => {
-  // eslint-disable-next-line no-undef
   console.log(`Servidor funcionando en el puerto ${config.port}`);
 });
